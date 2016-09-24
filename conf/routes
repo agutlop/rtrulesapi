@@ -1,0 +1,24 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+#
+# Note: @controllers syntax signifies the actual controller instance, retrieved via GlobalSettings.getController().
+# ~~~~
+
+#Serving RTRules AngularJS
+
+#RTRules API
+#topics
+GET     /app/topics                      @controllers.Topics.findTopics
+POST    /app/topic                       @controllers.Topics.createTopic
+
+#fieldtypes
+GET     /app/fieldtypes                  @controllers.FieldTypes.findFieldTypes
+POST    /app/fieldtype                   @controllers.FieldTypes.createFieldType
+
+#connectors
+GET     /app/connectors                  @controllers.Connectors.findConnectors
+POST    /app/connector                   @controllers.Connectors.createConnector
+
+#connectors
+GET     /app/rules                       @controllers.Rules.findRules
+POST    /app/rule                        @controllers.Rules.createRule
