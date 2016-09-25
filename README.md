@@ -16,7 +16,7 @@ RTRulesAPI cubre las siguientes funcionalidades:
 Para el funcionamiento del api es necesario:
   - `sbt` 
   - Una instancia de MongoDB (`localhost:27017`) 
-  - Consultar el repositorio rtrulesstorage para consultar la informacion que debe contenter MongoDB
+  - Consultar el repositorio rtrules-storage(https://github.com/agutlop/rtrules-storage) para consultar la informacion que debe contenter MongoDB
 
 
 ## Build & development
